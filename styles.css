@@ -1,0 +1,57 @@
+body {
+    background: linear-gradient(135deg, #8fbc8f, #d3d3d3);
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+  }
+  
+  .container {
+    text-align: center;
+    max-width: 600px;
+  }
+  
+  h1 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+  
+  .chat-section {
+    margin-top: 20px;
+  }
+  
+  input {
+    padding: 10px;
+    width: 80%;
+    margin-bottom: 10px;
+    border: 2px solid #8fbc8f;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #8fbc8f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #6e9e6e;
+  }
+  
+  #flower-container {
+    height: 150px;
+    margin-top: 20px;
+    background: url('https://in.pinterest.com/pin/56998751528074439/') center/contain no-repeat;
+  }
+  
+  p {
+    font-size: 1rem;
+    color: #444;
+  }
+  
